@@ -1,0 +1,14 @@
+{
+	"name": "logiwelt",
+	"version": "1.0.0",
+	"description": "logiwelt landing page",
+	"main": "index.js",
+	"scripts": {
+		"compile:sass": "node-sass sass/main.scss resources/css/style.css -w -r"
+	},
+	"author": "Bryan Rodriguez",
+	"license": "ISC",
+	"devDependencies": {
+		"node-sass": "^4.13.1"
+	}
+}
